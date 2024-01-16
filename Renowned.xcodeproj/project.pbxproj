@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF23CF272AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF23CF262AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf */; };
+		EF23CF292AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF23CF282AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf */; };
+		EF35CA512AF99BCB0004E7DE /* BookNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35CA502AF99BCB0004E7DE /* BookNowView.swift */; };
+		EF5D98AC2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5D98AB2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf */; };
+		EF5EAD4B2AF2FCC100A5C12E /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EAD4A2AF2FCC100A5C12E /* LogoViewController.swift */; };
+		EFA1BE6A2B0C0B7F008CD171 /* GalleryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1BE692B0C0B7F008CD171 /* GalleryDetailsView.swift */; };
+		EFB2AC632AFD302F00EF7777 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2AC622AFD302F00EF7777 /* ImageData.swift */; };
+		EFB6B9E12B0664B0008672A5 /* StylistDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6B9E02B0664B0008672A5 /* StylistDetailsView.swift */; };
 		EFB6E9E82AF1A23800483A3C /* RenownedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6E9E72AF1A23800483A3C /* RenownedApp.swift */; };
 		EFB6E9EA2AF1A23800483A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6E9E92AF1A23800483A3C /* ContentView.swift */; };
 		EFB6E9EC2AF1A23900483A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB6E9EB2AF1A23900483A3C /* Assets.xcassets */; };
@@ -19,6 +27,8 @@
 		EFB6EA162AF1A42000483A3C /* PricesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6EA152AF1A42000483A3C /* PricesView.swift */; };
 		EFB6EA182AF1A43B00483A3C /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6EA172AF1A43B00483A3C /* ContactView.swift */; };
 		EFB6EA1A2AF1A44800483A3C /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6EA192AF1A44800483A3C /* MoreView.swift */; };
+		EFCD584E2B1526EA00AC4509 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD584D2B1526EA00AC4509 /* ProductDetailView.swift */; };
+		EFF577F52AF845930026392C /* LounchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF577F42AF845930026392C /* LounchScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF23CF252AF5B2E1009C1C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EF23CF262AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		EF23CF282AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		EF35CA502AF99BCB0004E7DE /* BookNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowView.swift; sourceTree = "<group>"; };
+		EF5D98AB2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		EF5EAD4A2AF2FCC100A5C12E /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
+		EFA1BE692B0C0B7F008CD171 /* GalleryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailsView.swift; sourceTree = "<group>"; };
+		EFB2AC622AFD302F00EF7777 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		EFB6B9E02B0664B0008672A5 /* StylistDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistDetailsView.swift; sourceTree = "<group>"; };
 		EFB6E9E42AF1A23800483A3C /* Renowned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renowned.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB6E9E72AF1A23800483A3C /* RenownedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenownedApp.swift; sourceTree = "<group>"; };
 		EFB6E9E92AF1A23800483A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +73,8 @@
 		EFB6EA152AF1A42000483A3C /* PricesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesView.swift; sourceTree = "<group>"; };
 		EFB6EA172AF1A43B00483A3C /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		EFB6EA192AF1A44800483A3C /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		EFCD584D2B1526EA00AC4509 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		EFF577F42AF845930026392C /* LounchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF23CF222AF5B1F6009C1C50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98AB2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf */,
+				EF23CF282AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf */,
+				EF23CF262AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EF5EAD482AF2F5E000A5C12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFF577F42AF845930026392C /* LounchScreenView.swift */,
+				EFB6E9E92AF1A23800483A3C /* ContentView.swift */,
+				EFB6EA112AF1A2A000483A3C /* HomeView.swift */,
+				EF35CA502AF99BCB0004E7DE /* BookNowView.swift */,
+				EFB6EA132AF1A2B000483A3C /* BookingsView.swift */,
+				EFB6EA152AF1A42000483A3C /* PricesView.swift */,
+				EFB6EA172AF1A43B00483A3C /* ContactView.swift */,
+				EFB6EA192AF1A44800483A3C /* MoreView.swift */,
+				EF5EAD4A2AF2FCC100A5C12E /* LogoViewController.swift */,
+				EFB6B9E02B0664B0008672A5 /* StylistDetailsView.swift */,
+				EFA1BE692B0C0B7F008CD171 /* GalleryDetailsView.swift */,
+				EFCD584D2B1526EA00AC4509 /* ProductDetailView.swift */,
+				EF5EAD492AF2FC8A00A5C12E /* Controller */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF5EAD492AF2FC8A00A5C12E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF90DF4A2AFD2BF200D695D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2AC622AFD302F00EF7777 /* ImageData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EFB6E9DB2AF1A23800483A3C = {
 			isa = PBXGroup;
 			children = (
@@ -104,14 +170,12 @@
 		EFB6E9E62AF1A23800483A3C /* Renowned */ = {
 			isa = PBXGroup;
 			children = (
+				EF23CF252AF5B2E1009C1C50 /* Info.plist */,
 				EFB6E9E72AF1A23800483A3C /* RenownedApp.swift */,
-				EFB6E9E92AF1A23800483A3C /* ContentView.swift */,
-				EFB6EA152AF1A42000483A3C /* PricesView.swift */,
-				EFB6EA172AF1A43B00483A3C /* ContactView.swift */,
-				EFB6EA192AF1A44800483A3C /* MoreView.swift */,
-				EFB6EA132AF1A2B000483A3C /* BookingsView.swift */,
-				EFB6EA112AF1A2A000483A3C /* HomeView.swift */,
+				EF90DF4A2AFD2BF200D695D0 /* Model */,
+				EF5EAD482AF2F5E000A5C12E /* Views */,
 				EFB6E9EB2AF1A23900483A3C /* Assets.xcassets */,
+				EF23CF222AF5B1F6009C1C50 /* Fonts */,
 				EFB6E9ED2AF1A23900483A3C /* Preview Content */,
 			);
 			path = Renowned;
@@ -246,8 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF23CF292AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf in Resources */,
 				EFB6E9EF2AF1A23900483A3C /* Preview Assets.xcassets in Resources */,
+				EF23CF272AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf in Resources */,
 				EFB6E9EC2AF1A23900483A3C /* Assets.xcassets in Resources */,
+				EF5D98AC2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +340,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB6EA1A2AF1A44800483A3C /* MoreView.swift in Sources */,
+				EFCD584E2B1526EA00AC4509 /* ProductDetailView.swift in Sources */,
 				EFB6EA142AF1A2B000483A3C /* BookingsView.swift in Sources */,
 				EFB6EA182AF1A43B00483A3C /* ContactView.swift in Sources */,
+				EFA1BE6A2B0C0B7F008CD171 /* GalleryDetailsView.swift in Sources */,
+				EF5EAD4B2AF2FCC100A5C12E /* LogoViewController.swift in Sources */,
+				EFB6B9E12B0664B0008672A5 /* StylistDetailsView.swift in Sources */,
+				EFF577F52AF845930026392C /* LounchScreenView.swift in Sources */,
 				EFB6EA122AF1A2A100483A3C /* HomeView.swift in Sources */,
+				EFB2AC632AFD302F00EF7777 /* ImageData.swift in Sources */,
 				EFB6E9EA2AF1A23800483A3C /* ContentView.swift in Sources */,
 				EFB6EA162AF1A42000483A3C /* PricesView.swift in Sources */,
+				EF35CA512AF99BCB0004E7DE /* BookNowView.swift in Sources */,
 				EFB6E9E82AF1A23800483A3C /* RenownedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -424,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -445,11 +519,14 @@
 				DEVELOPMENT_TEAM = GTU957UJKB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Renowned/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,11 +551,14 @@
 				DEVELOPMENT_TEAM = GTU957UJKB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Renowned/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
