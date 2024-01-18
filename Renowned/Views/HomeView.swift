@@ -227,10 +227,10 @@ struct HomeView: View {
         .sheet(isPresented: $showBookNowView) {
             BookNowView()
             }
-        .sheet(item: $selectedStylist) { stylist in // Nawigacja do szczegółowego widoku dla wybranego styliscie
+        .sheet(item: $selectedStylist) { stylist in //
             StylistDetailView(stylist: stylist)
         }
-        .sheet(item: $selectedPhoto) { photo in // Nawigacja do szczegółowego widoku dla wybranego zdjecia
+        .sheet(item: $selectedPhoto) { photo in //
             GalleryDetailsView(gallery: photo)
         }
         .sheet(item: $selectedProduct) { product in

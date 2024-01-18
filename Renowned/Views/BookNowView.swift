@@ -2,57 +2,45 @@
 //  BookNowView.swift
 //  Renowned
 //
-//  Created by Jarek  on 06/11/2023.
+//  Created by Jarek  on 31/10/2023.
 //
 
 import SwiftUI
-import WebKit
 
 struct BookNowView: View {
+    @StateObject var viewModel = WebViewModel(url: "https://apps.baxus.com/bookings/renownedsalon#services/popular")
     @Environment(\.presentationMode) var presentationMode
-    private let urlString: String = "https://apps.baxus.com/bookings/renownedsalon#services/popular"
-    
+
     var body: some View {
         NavigationView {
-                VStack {
-                    WebView(url: URL(string: urlString)!)
-                        .overlay(
-                            
-                            // Loading indicator
-                            ProgressView()
-                                .progressViewStyle(CircularProgressViewStyle(tint: .black))
-                                .scaleEffect(1.0, anchor: .center)
-                    )
-                    .padding()
-                Spacer()
-                }
-               
-            
-            // Navigation bar settings
+            LoadingView(isLoading: $viewModel.isLoading, content: {
+                WebView(viewModel: viewModel)
+            }, loadingText: "")
+            .onAppear {
+                // Additional actions when the view appears
+            }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                // Custom logo in the center of the navigation bar
                 ToolbarItem(placement: .principal) {
                     LogoView()
                 }
-                
-                // Back button to dismiss the view and return to HomeView
-                ToolbarItem(placement: .navigationBarLeading) {
+
+                ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        presentationMode.wrappedValue.dismiss()
+                        // Action when the "bell" button is tapped
                     }) {
-                        Image(systemName: "chevron.left")
+                        Image(systemName: "bell")
                             .font(.system(size: 18))
                             .accentColor(.black)
                     }
                 }
-                
-                // Notification bell button
-                ToolbarItem(placement: .navigationBarTrailing) {
+
+                ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
-                          // Add action for the bell button
+                        // Action to close the view
+                        presentationMode.wrappedValue.dismiss()
                     }) {
-                        Image(systemName: "bell")
+                        Image(systemName: "xmark")
                             .font(.system(size: 18))
                             .accentColor(.black)
                     }
@@ -62,26 +50,10 @@ struct BookNowView: View {
     }
 }
 
-struct WebView: UIViewRepresentable {
-    var url: URL
-    
-    func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
-    }
-    
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        let request = URLRequest(url: url)
-        uiView.load(request)
-    }
-}
 
-
-struct BookNow_Previews: PreviewProvider {
+struct BookNowView_Previews: PreviewProvider {
     static var previews: some View {
         BookNowView()
     }
 }
 
-#Preview {
-    BookNowView()
-}

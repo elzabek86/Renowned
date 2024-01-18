@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct ActivityIndicatorView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+// Custom UIViewRepresentable for an activity indicator
+struct ActivityIndicatorView: UIViewRepresentable {
+    @Binding var isAnimating: Bool
+    let style: UIActivityIndicatorView.Style
+    
+    // Create the underlying UIActivityIndicatorView
+    func makeUIView(context: UIViewRepresentableContext<ActivityIndicatorView>) -> UIActivityIndicatorView {
+        return UIActivityIndicatorView(style: style)
     }
-}
-
-#Preview {
-    ActivityIndicatorView()
+    
+    // Update the UIActivityIndicatorView based on the isAnimating state
+    func updateUIView(_ uiView: UIActivityIndicatorView, context: UIViewRepresentableContext<ActivityIndicatorView>) {
+        isAnimating ? uiView.startAnimating() : uiView.stopAnimating()
+    }
 }

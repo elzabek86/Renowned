@@ -10,6 +10,10 @@
 		EF23CF272AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF23CF262AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf */; };
 		EF23CF292AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF23CF282AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf */; };
 		EF35CA512AF99BCB0004E7DE /* BookNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35CA502AF99BCB0004E7DE /* BookNowView.swift */; };
+		EF506FA82B586E90004D9086 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF506FA72B586E90004D9086 /* ActivityIndicatorView.swift */; };
+		EF506FAA2B586EB2004D9086 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF506FA92B586EB2004D9086 /* LoadingView.swift */; };
+		EF506FAC2B586EE6004D9086 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF506FAB2B586EE6004D9086 /* WebViewModel.swift */; };
+		EF506FAE2B586F05004D9086 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF506FAD2B586F05004D9086 /* WebView.swift */; };
 		EF5D98AC2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5D98AB2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf */; };
 		EF5EAD4B2AF2FCC100A5C12E /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EAD4A2AF2FCC100A5C12E /* LogoViewController.swift */; };
 		EFA1BE6A2B0C0B7F008CD171 /* GalleryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1BE692B0C0B7F008CD171 /* GalleryDetailsView.swift */; };
@@ -53,6 +57,10 @@
 		EF23CF262AF5B49F009C1C50 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		EF23CF282AF5BA4A009C1C50 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		EF35CA502AF99BCB0004E7DE /* BookNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowView.swift; sourceTree = "<group>"; };
+		EF506FA72B586E90004D9086 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		EF506FA92B586EB2004D9086 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EF506FAB2B586EE6004D9086 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		EF506FAD2B586F05004D9086 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		EF5D98AB2B169DB000675DD9 /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
 		EF5EAD4A2AF2FCC100A5C12E /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
 		EFA1BE692B0C0B7F008CD171 /* GalleryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailsView.swift; sourceTree = "<group>"; };
@@ -127,6 +135,9 @@
 				EFB6B9E02B0664B0008672A5 /* StylistDetailsView.swift */,
 				EFA1BE692B0C0B7F008CD171 /* GalleryDetailsView.swift */,
 				EFCD584D2B1526EA00AC4509 /* ProductDetailView.swift */,
+				EF506FA72B586E90004D9086 /* ActivityIndicatorView.swift */,
+				EF506FA92B586EB2004D9086 /* LoadingView.swift */,
+				EF506FAD2B586F05004D9086 /* WebView.swift */,
 				EF5EAD492AF2FC8A00A5C12E /* Controller */,
 			);
 			path = Views;
@@ -135,6 +146,7 @@
 		EF5EAD492AF2FC8A00A5C12E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EF506FAB2B586EE6004D9086 /* WebViewModel.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -342,15 +354,19 @@
 				EFB6EA1A2AF1A44800483A3C /* MoreView.swift in Sources */,
 				EFCD584E2B1526EA00AC4509 /* ProductDetailView.swift in Sources */,
 				EFB6EA142AF1A2B000483A3C /* BookingsView.swift in Sources */,
+				EF506FAC2B586EE6004D9086 /* WebViewModel.swift in Sources */,
 				EFB6EA182AF1A43B00483A3C /* ContactView.swift in Sources */,
 				EFA1BE6A2B0C0B7F008CD171 /* GalleryDetailsView.swift in Sources */,
+				EF506FAA2B586EB2004D9086 /* LoadingView.swift in Sources */,
 				EF5EAD4B2AF2FCC100A5C12E /* LogoViewController.swift in Sources */,
+				EF506FA82B586E90004D9086 /* ActivityIndicatorView.swift in Sources */,
 				EFB6B9E12B0664B0008672A5 /* StylistDetailsView.swift in Sources */,
 				EFF577F52AF845930026392C /* LounchScreenView.swift in Sources */,
 				EFB6EA122AF1A2A100483A3C /* HomeView.swift in Sources */,
 				EFB2AC632AFD302F00EF7777 /* ImageData.swift in Sources */,
 				EFB6E9EA2AF1A23800483A3C /* ContentView.swift in Sources */,
 				EFB6EA162AF1A42000483A3C /* PricesView.swift in Sources */,
+				EF506FAE2B586F05004D9086 /* WebView.swift in Sources */,
 				EF35CA512AF99BCB0004E7DE /* BookNowView.swift in Sources */,
 				EFB6E9E82AF1A23800483A3C /* RenownedApp.swift in Sources */,
 			);
